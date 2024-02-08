@@ -2,7 +2,7 @@
 Google maps replica using C++
 
 ## Class Data Structure
-<p align="center"><img src="img/Class Data Structure.png" alt="Nearby" width="500"/></p>
+<p align="center"><img src="images/Class Data Structure.png" alt="Nearby" width="500"/></p>
 
 ## Item 1: Autocomplete The Location Name (Phase 1):
 The purpose of this function is that whenever a user enters an incomplete name of a location, the program should output possible location names.
@@ -13,7 +13,7 @@ Output: ["Chick-fil-A", "Chipotle", "Chinese Street Food"]
 
 Obtained Output:
 
-<p align="center"><img src="img/Item 1 Autocomplete.png" alt="Nearby" width="500"/></p>
+<p align="center"><img src="images/Item 1 Autocomplete.png" alt="Nearby" width="500"/></p>
 
     ->Runtime of Algorithm: O(n)
     ->Time spent: Fairly less
@@ -26,9 +26,9 @@ Output: (34.0257016, -118.2843512)
 
 Obtained output:
 
-<p align="center"><img src="img/Item 2 Find Location.png" alt="Nearby" width="500"/></p>
+<p align="center"><img src="images/Item 2 Find Location.png" alt="Nearby" width="500"/></p>
 
-<p align="center"><img src="img/Item 2 Map.png" alt="Nearby" width="500"/></p>
+<p align="center"><img src="images/Item 2 Map.png" alt="Nearby" width="500"/></p>
 
     ->Runtime of Algorithm: O(n)
     ->Time spent: Fairly less
@@ -38,7 +38,7 @@ This function takes two location names as input and finds the number of insert, 
 
 Obtained output:
 
-<p align="center"><img src="img/Item 2-1 Find Closest Name.png" alt="Nearby" width="500"/></p>
+<p align="center"><img src="images/Item 2-1 Find Closest Name.png" alt="Nearby" width="500"/></p>
 
     ->Runtime of Algorithm: 
     ->CalculateEditDistance: O(m*n), where m = length of string 1 & n = length of string 2
@@ -49,7 +49,7 @@ This function returns all attributes listed in data (no duplicates).
 
 Obtained output:
 
-<p align="center"><img src="img/Item 3 Get all categories.png" alt="Nearby" width="500"/></p>
+<p align="center"><img src="images/Item 3 Get all categories.png" alt="Nearby" width="500"/></p>
 
     ->Runtime of Algorithm: O(n*a), Where n = number of nodes (locations) & a = number of attributes.
     ->Time spent: Fairly less
@@ -60,9 +60,9 @@ In this function, the name of the attribute is passed as an input argument & all
 
 Obtained Output:
 
-<p align="center"><img src="img/Item 4 Get All Locations of a category.png" alt="Nearby" width="500"/></p>
+<p align="center"><img src="images/Item 4 Get All Locations of a category.png" alt="Nearby" width="500"/></p>
 
-<p align="center"><img src="img/Item 4 Map.png" alt="Nearby" width="500"/></p>
+<p align="center"><img src="images/Item 4 Map.png" alt="Nearby" width="500"/></p>
 
      ->Runtime of algorithm: O(n)
      ->Time spent: Fairly less
@@ -81,9 +81,9 @@ Given two input locations, this function finds the best (shortest) route from on
 
 Obtained Output:
 
-<p align="center"><img src="img/Item 6 Dijsktra and Bellman Ford.png" alt="Nearby" width="500"/></p>
+<p align="center"><img src="images/Item 6 Dijsktra and Bellman Ford.png" alt="Nearby" width="500"/></p>
 
-<p align="center"><img src="img/Item 6 Map.png" alt="Nearby" width="500"/></p>
+<p align="center"><img src="images/Item 6 Map.png" alt="Nearby" width="500"/></p>
 
 From obtained output, it can be observed that Dijkstra takes lesser time compared to Bellman Ford. This is because Bellman Ford handles a wide range of scenarios.
 
@@ -113,25 +113,25 @@ For this function, we consider a square section of the graph & try to find if th
 
 Obtained output:
 
-<p align="center"><img src="img/Item 7 Cycle Detection 1.png" alt="Nearby" width="500"/></p>
+<p align="center"><img src="images/Item 7 Cycle Detection 1.png" alt="Nearby" width="500"/></p>
 
-<p align="center"><img src="img/Item 7 map 1.png" alt="Nearby" width="500"/></p>
+<p align="center"><img src="images/Item 7 map 1.png" alt="Nearby" width="500"/></p>
 
-<p align="center"><img src="img/Item 7 Cycle Detection 2.png" alt="Nearby" width="500"/></p>
+<p align="center"><img src="images/Item 7 Cycle Detection 2.png" alt="Nearby" width="500"/></p>
 
 <p align="center"><img src="img/Item 7 map 2.png" alt="Nearby" width="500"/></p>
 
-<p align="center"><img src="img/Item 7 Cycle Detection 3.png" alt="Nearby" width="500"/></p>
+<p align="center"><img src="images/Item 7 Cycle Detection 3.png" alt="Nearby" width="500"/></p>
 
-<p align="center"><img src="img/Item 7 map 3.png" alt="Nearby" width="500"/></p>
+<p align="center"><img src="images/Item 7 map 3.png" alt="Nearby" width="500"/></p>
 
-<p align="center"><img src="img/Item 7 Cycle Detection 4.png" alt="Nearby" width="500"/></p>
+<p align="center"><img src="images/Item 7 Cycle Detection 4.png" alt="Nearby" width="500"/></p>
 
-<p align="center"><img src="img/Item 7 map 4.png" alt="Nearby" width="500"/></p>
+<p align="center"><img src="images/Item 7 map 4.png" alt="Nearby" width="500"/></p>
 
-<p align="center"><img src="img/Item 7 Cycle Detection 5.png" alt="Nearby" width="500"/></p>
+<p align="center"><img src="images/Item 7 Cycle Detection 5.png" alt="Nearby" width="500"/></p>
 
-<p align="center"><img src="img/Item 7 map 5.png" alt="Nearby" width="500"/></p>
+<p align="center"><img src="images/Item 7 map 5.png" alt="Nearby" width="500"/></p>
 
  ->Runtime of Algorithm: O(n)
  ->Time spent: Average time spent on this function
@@ -140,13 +140,13 @@ Obtained output:
 
 Obtained output:
 
-<p align="center"><img src="img/Item 8 Topological sort 1.png" alt="Nearby" width="500"/></p>
+<p align="center"><img src="images/Item 8 Topological sort 1.png" alt="Nearby" width="500"/></p>
 
-<p align="center"><img src="img/Item 8 Map 1.png" alt="Nearby" width="500"/></p>
+<p align="center"><img src="images/Item 8 Map 1.png" alt="Nearby" width="500"/></p>
 
-<p align="center"><img src="img/Item 8 Toplogical Sort 2.png" alt="Nearby" width="500"/></p>
+<p align="center"><img src="images/Item 8 Toplogical Sort 2.png" alt="Nearby" width="500"/></p>
 
-<p align="center"><img src="img/Item 8 Map 2.png" alt="Nearby" width="500"/></p>
+<p align="center"><img src="images/Item 8 Map 2.png" alt="Nearby" width="500"/></p>
 
     ->Runtime for algorithm: O(n)
     ->Time spent: Average amount of time was spent. The main difficulty was encountered in getting the indegree vector before performing bfs on it.
@@ -157,7 +157,7 @@ This function finds the shortest route that covers all the locations & returns b
 
 Obtained Output:
 
-<p align="center"><img src="img/Item 9 Six Points.png" alt="Nearby" width="500"/></p>
+<p align="center"><img src="images/Item 9 Six Points.png" alt="Nearby" width="500"/></p>
 
 Time comparison:
 
@@ -183,7 +183,7 @@ The order of locations are from nearest to farthest.
 
 Obtained output:
 
-<p align="center"><img src="img/Item 10 Find Nearby.png" alt="Nearby" width="500"/></p>
+<p align="center"><img src="images/Item 10 Find Nearby.png" alt="Nearby" width="500"/></p>
 
  ->Runtime of Algorithm: O(n)
  ->Time spent: Fairly less
@@ -194,9 +194,9 @@ This function takes a vector of location as an input argument & returns the shor
 
 Obtained output:
 
-<p align="center"><img src="img/Item 11 TrojanPath.png" alt="Nearby" width="500"/></p>
+<p align="center"><img src="images/Item 11 TrojanPath.png" alt="Nearby" width="500"/></p>
 
-<p align="center"><img src="img/Item 11 map.png" alt="Nearby" width="500"/></p>
+<p align="center"><img src="images/Item 11 map.png" alt="Nearby" width="500"/></p>
 
  ->Runtime of algorithm: O((n^2)*n!*(V+E)*log(V)) where, n = Total number of nodes,  V = Number of nodes visited, E = edges between nodes
  ->Time spent: Average time was spent
@@ -207,7 +207,7 @@ This function receives an input vector which has a pair of source & destination 
 
 Obtained output:
 
-<p align="center"><img src="img/Item 12 Gas Tank.png" alt="Nearby" width="500"/></p>
+<p align="center"><img src="images/Item 12 Gas Tank.png" alt="Nearby" width="500"/></p>
 
      ->Runtime of algorithm: O(n*(V+E)), n = number of queries
      ->Time spent: Fairly less
